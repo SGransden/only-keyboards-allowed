@@ -8,6 +8,10 @@ html {
   list-style-type: none;
 }
 
+.outline {
+  outline: 3px solid #fff;
+}
+
 .skip-links a {
   background-color: orange;
   color: #000;
@@ -16,7 +20,6 @@ html {
 .skip-links a:focus {
   top: 0;
 }
-
 
 .section-dark {
   background-color: #000308;
