@@ -2,6 +2,22 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  background-color: orange;
+  color: #000;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+
 .section-dark {
   background-color: #000308;
   color: #fff;
